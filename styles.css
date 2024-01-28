@@ -1,0 +1,23 @@
+/* styles.css */
+
+/* Center image */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 使用100%视窗高度以垂直居中 */
+}
+
+/* Bottom center image */
+.bottom-center {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Additional styles for content */
+.content {
+  text-align: center;
+  padding: 20px;
+}
