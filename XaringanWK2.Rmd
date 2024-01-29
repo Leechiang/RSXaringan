@@ -1,5 +1,5 @@
 ---
-title: "Radar Sensor"
+title: "Radar remotely sensing"
 author: "Chi-Li CHIANG"
 institute: "UCL CASA"
 date: "2024/01/25"
@@ -12,21 +12,28 @@ output:
       countIncrementalSlides: false
 ---
 # Introduction
-Radar remote sensing extracts physical and dielectric behaviour from ground targets via electromagnetic energy backscattered from them.  Radar imaging's ability to provide all-weather and all-hour imaging is one of its main advantages.  Depending on the platform, microwave pulses with a preset pulse repetition frequency are transmitted by radar towards the ground.  The ground target's moisture content and surface roughness affect the backscattered energy's intensity and phase.  The energy that is backscattered from ground targets that are exposed to microwave pulses transmitted by the radar antenna is obtained.
+Radar remote sensing is a form of active remote sensing.  To be more specific, the principle of radar remote sensing is that extracts physical and dielectric behaviour from ground targets via electromagnetic energy backscattered from them.   Depending on the platform, microwave pulses with a preset pulse repetition frequency are transmitted by radar towards the ground.   The ground target's moisture content and surface roughness affect the backscattered energy's intensity and phase.   The energy that is backscattered from ground targets that are exposed to microwave pulses transmitted by the radar antenna is obtained. 
+
+```{r  echo=FALSE, out.width='35%', fig.align='center'}
+knitr::include_graphics('3-s2.0-B9780128234570000148-f14-01-9780128234570.jpg')
+```
+---
+# Advantages of Radar remote sensing
+Radar imaging's ability to provide all-weather and all-hour imaging is one of its main advantages.
+---
 
 ---
 # The application of Radar remotely sensing
-It can be used for digital elevation mapping, soil mapping, vegetation cover mapping, archaeological applications, and other purposes due to its all-weather imaging capability and particular range of EMR spectrum.  This type of technology is being used by several satellite-based sensors to generate remote sensing data based on radar.
+Radar remote sensing can be used for digital elevation mapping, soil mapping, vegetation cover mapping, archaeological applications, and other purposes due to its all-weather imaging capability and particular range of EMR spectrum.  This type of technology is being used by several satellite-based sensors to generate remote sensing data based on radar.
 
 ---
 
-# Hello World
-
+# Principles of Radar remote sensing
 Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
 
-```{r eval=FALSE, tidy=FALSE}
+{r eval=FALSE, tidy=FALSE}
 remotes::install_github("yihui/xaringan")
-```
+
 
 --
 
