@@ -1,5 +1,5 @@
 ---
-title: "Radar remotely sensing"
+title: "Synthetic-aperture radar (SAR)"
 author: "Chi-Li CHIANG"
 institute: "UCL CASA"
 date: "2024/01/25"
@@ -12,19 +12,21 @@ output:
       countIncrementalSlides: false
 ---
 # Introduction
-Radar remote sensing is a form of active remote sensing.  To be more specific, the principle of radar remote sensing is that extracts physical and dielectric behaviour from ground targets via electromagnetic energy backscattered from them.   Depending on the platform, microwave pulses with a preset pulse repetition frequency are transmitted by radar towards the ground.   The ground target's moisture content and surface roughness affect the backscattered energy's intensity and phase.   The energy that is backscattered from ground targets that are exposed to microwave pulses transmitted by the radar antenna is obtained. 
+Synthetic-aperture radar is a type of active remote sensing method.In addition,SAR systems produce high resolution imagery by utilising the long-range propagation properties of radar signals and the sophisticated information processing power of contemporary digital electronics.
+
+The image below is the Teide volcano which acquired by SAR.
 
 ```{r  echo=FALSE, out.width='35%', fig.align='center'}
-knitr::include_graphics('3-s2.0-B9780128234570000148-f14-01-9780128234570.jpg')
+knitr::include_graphics('TEIDE.jpg')
 ```
 ---
-# Advantages of Radar remote sensing
-Radar imaging's ability to provide all-weather and all-hour imaging is one of its main advantages.
+# Principles of SAR
+A synthetic-aperture radar is an imaging radar mounted on a mobile platform.  The system electronics sequentially transmits electromagnetic waves, gathers echoes, digitises the data, and stores it for later processing.   Transmission and reception map to distinct small positions because they happen at different times.   The virtual aperture created by the well-organized combination of the received signals is substantially longer than the actual antenna width.   Its origins give rise to the term "synthetic aperture," which confers on it the capability of imaging radar. 
 ---
 
 ---
-# The application of Radar remotely sensing
-Radar remote sensing can be used for digital elevation mapping, soil mapping, vegetation cover mapping, archaeological applications, and other purposes due to its all-weather imaging capability and particular range of EMR spectrum.  This type of technology is being used by several satellite-based sensors to generate remote sensing data based on radar.
+# The application of Radar remote sensing
+In Genral, Radar remote sensing can be used for digital elevation mapping, soil mapping, vegetation cover mapping, archaeological applications, and other purposes due to its all-weather imaging capability and particular range of EMR spectrum.  This type of technology is being used by several satellite-based sensors to generate remote sensing data based on radar.
 
 ---
 

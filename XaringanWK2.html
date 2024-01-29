@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Radar remotely sensing</title>
+    <title>Synthetic-aperture radar (SAR)</title>
     <meta charset="utf-8" />
     <meta name="author" content="Chi-Li CHIANG" />
     <script src="libs/header-attrs-2.25/header-attrs.js"></script>
@@ -22,7 +22,7 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# Radar remotely sensing
+# Synthetic-aperture radar (SAR)
 ]
 .author[
 ### Chi-Li CHIANG
@@ -37,17 +37,19 @@ class: center, middle, inverse, title-slide
 ---
 
 # Introduction
-Radar remote sensing is a form of active remote sensing.  To be more specific, the principle of radar remote sensing is that extracts physical and dielectric behaviour from ground targets via electromagnetic energy backscattered from them.   Depending on the platform, microwave pulses with a preset pulse repetition frequency are transmitted by radar towards the ground.   The ground target's moisture content and surface roughness affect the backscattered energy's intensity and phase.   The energy that is backscattered from ground targets that are exposed to microwave pulses transmitted by the radar antenna is obtained. 
+Synthetic-aperture radar is a type of active remote sensing method.In addition,SAR systems produce high resolution imagery by utilising the long-range propagation properties of radar signals and the sophisticated information processing power of contemporary digital electronics.
 
-&lt;img src="3-s2.0-B9780128234570000148-f14-01-9780128234570.jpg" width="35%" style="display: block; margin: auto;" /&gt;
+The image below is the Teide volcano which acquired by SAR.
+
+&lt;img src="TEIDE.jpg" width="35%" style="display: block; margin: auto;" /&gt;
 ---
-# Advantages of Radar remote sensing
-Radar imaging's ability to provide all-weather and all-hour imaging is one of its main advantages.
+# Principles of SAR
+A synthetic-aperture radar is an imaging radar mounted on a mobile platform.  The system electronics sequentially transmits electromagnetic waves, gathers echoes, digitises the data, and stores it for later processing.   Transmission and reception map to distinct small positions because they happen at different times.   The virtual aperture created by the well-organized combination of the received signals is substantially longer than the actual antenna width.   Its origins give rise to the term "synthetic aperture," which confers on it the capability of imaging radar. 
 ---
 
 ---
-# The application of Radar remotely sensing
-Radar remote sensing can be used for digital elevation mapping, soil mapping, vegetation cover mapping, archaeological applications, and other purposes due to its all-weather imaging capability and particular range of EMR spectrum.  This type of technology is being used by several satellite-based sensors to generate remote sensing data based on radar.
+# The application of Radar remote sensing
+In Genral, Radar remote sensing can be used for digital elevation mapping, soil mapping, vegetation cover mapping, archaeological applications, and other purposes due to its all-weather imaging capability and particular range of EMR spectrum.  This type of technology is being used by several satellite-based sensors to generate remote sensing data based on radar.
 
 ---
 
@@ -326,8 +328,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a6cfcd719411be43440a" style="width:100%;height:432px;"></div>
-<script type="application/json" data-for="htmlwidget-a6cfcd719411be43440a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-c8c46944d2d2763a8d6d" style="width:100%;height:432px;"></div>
+<script type="application/json" data-for="htmlwidget-c8c46944d2d2763a8d6d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
