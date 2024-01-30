@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Synthetic-aperture radar (SAR)</title>
+    <title>ALOS-2</title>
     <meta charset="utf-8" />
     <meta name="author" content="Chi-Li CHIANG" />
     <script src="libs/header-attrs-2.25/header-attrs.js"></script>
@@ -22,7 +22,7 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# Synthetic-aperture radar (SAR)
+# ALOS-2
 ]
 .author[
 ### Chi-Li CHIANG
@@ -36,23 +36,38 @@ class: center, middle, inverse, title-slide
 
 ---
 
-# Introduction
-Synthetic-aperture radar is a type of active remote sensing method.In addition,SAR systems produce high resolution imagery by utilising the long-range propagation properties of radar signals and the sophisticated information processing power of contemporary digital electronics.
+# Summary: Introduction of ALOS-2
+Advanced Land Observing Satellite-2 (ALOS-2), also called Daichi-2, is a 2,120 kg Japanese satellite launched in 2014.      The satellite contains a 1.2 GHz synthetic-aperture radar (SAR) sensor that is intended to be used for cartography, monitoring of naval traffic and disaster monitoring of Asia and the Pacific.
 
-The image below is the Teide volcano which acquired by SAR.
+The image below is the ALOS-2 satellite:
 
-&lt;img src="TEIDE.jpg" width="35%" style="display: block; margin: auto;" /&gt;
+&lt;img src="Pi7_Image_alos2.jpg" width="60%" style="display: block; margin: auto;" /&gt;
 ---
-# Principles of SAR
-A synthetic-aperture radar is an imaging radar mounted on a mobile platform.  The system electronics sequentially transmits electromagnetic waves, gathers echoes, digitises the data, and stores it for later processing.   Transmission and reception map to distinct small positions because they happen at different times.   The virtual aperture created by the well-organized combination of the received signals is substantially longer than the actual antenna width.   Its origins give rise to the term "synthetic aperture," which confers on it the capability of imaging radar. 
----
+# Summary: Sensor on ALOS-2
+The PALSAR-2 aboard ALOS-2 is an L-band Synthetic Aperture Radar(SAR) sensor, a microwave sensor that emits L-band radio waves and receives their reflection from the ground to acquire information. 
+
+The table below shows the observation modes of PALSAR-2 and technical specifications of it:
+
+&lt;img src="2024-01-30 190704.jpg" width="70%" style="display: block; margin: auto;" /&gt;
 
 ---
-# The application of Radar remote sensing
-In Genral, Radar remote sensing can be used for digital elevation mapping, soil mapping, vegetation cover mapping, archaeological applications, and other purposes due to its all-weather imaging capability and particular range of EMR spectrum.  This type of technology is being used by several satellite-based sensors to generate remote sensing data based on radar.
+# Summary: Missions of ALOS-2
+The missions of ALOS-2 are in the following:
+
+1. Disaster monitoring
+
+2. Land monitoring
+
+3. Agricultural monitoring
+
+4. Natural resource Exploration
+
+5. Global forest monitoring
+---
+# Application: Disaster monitoring
+1. ALOS/PALSAR−2 can detect landslides in areas with high vegetation coverage, meeting over 90% of monitoring requirements.  Because seasonality is important, it is therefore ideal for landslip detection in the Qinling-Daba Mountains. 
 
 ---
-
 # Principles of Radar remote sensing
 Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
 
@@ -328,8 +343,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-c8c46944d2d2763a8d6d" style="width:100%;height:432px;"></div>
-<script type="application/json" data-for="htmlwidget-c8c46944d2d2763a8d6d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-39b03148c389ac3797a4" style="width:100%;height:432px;"></div>
+<script type="application/json" data-for="htmlwidget-39b03148c389ac3797a4">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
