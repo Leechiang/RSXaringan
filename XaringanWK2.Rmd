@@ -56,7 +56,7 @@ The missions of ALOS-2 are in the following:
 
 2. When estimating the area-based aboveground biomass of a temperate forest with dense canopy and intermixing crowns, ALOS-2 PALSAR-2 is a preferable option over UAV RGB.(HASAN AHMED, 2021)
 ---
-# Principles of Radar remote sensing
+# Reflection: Challenges of using SAR data
 Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
 
 {r eval=FALSE, tidy=FALSE}
