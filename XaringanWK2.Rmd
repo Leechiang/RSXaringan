@@ -44,7 +44,10 @@ The missions of ALOS-2 are in the following:
 5. Global forest monitoring
 ---
 # Application: Disaster monitoring
-1. ALOS/PALSAR−2 can detect landslides in areas with high vegetation coverage, meeting over 90% of monitoring requirements.  Because seasonality is important, it is therefore ideal for landslip detection in the Qinling-Daba Mountains. 
+1. ALOS/PALSAR−2 can detect landslides in areas with high vegetation coverage, meeting over 90% of monitoring requirements.  Because seasonality is important, it is therefore ideal for landslip detection in the Qinling-Daba Mountains. (Shuai Yang et al., 2023)
+
+---
+# Application: Global forest monitoring
 
 ---
 # Principles of Radar remote sensing
