@@ -57,32 +57,11 @@ The missions of ALOS-2 are in the following:
 2. When estimating the area-based aboveground biomass of a temperate forest with dense canopy and intermixing crowns, ALOS-2 PALSAR-2 is a preferable option over UAV RGB.(HASAN AHMED, 2021)
 ---
 # Reflection: Challenges of using SAR data
-Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
+The first SAR instrument was launched into orbit more than 40 years ago, with all-weather, all-time capabilities, SAR was still viewed as a backup option to visual and other sensors.   Modern SAR sensors have several modes and special capabilities.  But there are still a lot of obstacles to overcome (Arsenios Tsokas et al., 2022):
 
-{r eval=FALSE, tidy=FALSE}
-remotes::install_github("yihui/xaringan")
+1. Advanced models on multisource data are needed to reduce uncertainty. 
 
-
---
-
-You are recommended to use the [RStudio IDE](https://www.rstudio.com/products/rstudio/), but you do not have to.
-
-- Create a new R Markdown document from the menu `File -> New File -> R Markdown -> From Template -> Ninja Presentation`;<sup>1</sup>
-
---
-
-- Click the `Knit` button to compile it;
-
---
-
-- or use the [RStudio Addin](https://rstudio.github.io/rstudioaddins/)<sup>2</sup> "Infinite Moon Reader" to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.
-
-.footnote[
-[1] 中文用户请看[这份教程](https://slides.yihui.org/xaringan/zh-CN.html)
-
-[2] See [#2](https://github.com/yihui/xaringan/issues/2) if you do not see the template or addin in RStudio.
-]
-
+2. Few benchmark datasets, particularly those with labels
 ---
 background-image: url(`r xaringan:::karl`)
 background-position: 50% 50%
