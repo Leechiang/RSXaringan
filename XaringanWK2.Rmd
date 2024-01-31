@@ -63,6 +63,9 @@ The first SAR instrument was launched into orbit more than 40 years ago, with al
 
 2. Few benchmark datasets, particularly those with labels
 ---
+# Reflection:
+
+---
 background-image: url(`r xaringan:::karl`)
 background-position: 50% 50%
 class: center, bottom, inverse
