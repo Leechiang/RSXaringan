@@ -44,11 +44,17 @@ The missions of ALOS-2 are in the following:
 5. Global forest monitoring
 ---
 # Application: Disaster monitoring
-1. ALOS/PALSAR−2 can detect landslides in areas with high vegetation coverage, meeting over 90% of monitoring requirements.  Because seasonality is important, it is therefore ideal for landslip detection in the Qinling-Daba Mountains. (Shuai Yang et al., 2023)
+1. ALOS/PALSAR−2 can detect landslides in areas with high vegetation coverage, meeting over 90% of monitoring requirements. (Shuai Yang et al., 2023)
+
+2. The validity and applicability of ALOS-2 data in the identification of potential landslides in areas with dense vegetation cover and complex geological conditions were confirmed from the aspects of vegetation cover, topography, field investigation, and comparative analysis of typical landslides.(Chen Cao et al., 2022)
+
+3. The bushfire investigation showed that precision of classification of ALOS-2 is 89% based on differences between pre- and post-disaster data. (S. Mutai and L. Chang, 2020)
 
 ---
 # Application: Global forest monitoring
+1. While the L-band (ALOS-2) can detect more types of deforestation, such as clear-cutting and forest fires, when compared to the C-band SAR (Sentinel-1) data.(Ngo Duc Anh, Vu Anh Tuan, and Truong Tuan Nghia, 2023)
 
+2. When estimating the area-based aboveground biomass of a temperate forest with dense canopy and intermixing crowns, ALOS-2 PALSAR-2 is a preferable option over UAV RGB.(HASAN AHMED, 2021)
 ---
 # Principles of Radar remote sensing
 Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
